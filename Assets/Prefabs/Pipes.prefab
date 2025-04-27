@@ -342,5 +342,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8178f4874382571478b9d637daa2891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GamePause: {fileID: 0}
-  _speed: -5
+  _speed: -100
