@@ -13,7 +13,7 @@ public class Hazard : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.TryGetComponent(out Player _))
+        if (collision.collider.TryGetComponent(out PlayerView _))
         {
             _gamePause.Pause();
         }
